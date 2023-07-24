@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    Buyer
+</head>
+<body>
+    <p>Address : 0xcb0a2c74d6E9d3D61279a0a8d8f9f1e8d4b07142</p>
+    <input type="hidden" id="address" value="0xcb0a2c74d6E9d3D61279a0a8d8f9f1e8d4b07142">
+
+    <label for="amount">Amount to Deposit (Ether):</label>
+    <input type="number" id="amount" />
+    <br>
+    <button onclick="refundBuyer('0xcb0a2c74d6E9d3D61279a0a8d8f9f1e8d4b07142')">Refund Buyer</button>
+    <br>
+    <button onclick="checkAmount()">Check Amount</button>
+    <br>
+    <button onclick="addressBalance('0x3dA4ebD27ccafaA1285C4a7242e33b96a88EEB4E')"> My Balance</button>
+    <br>
+    <button onclick="checkStatus()">Status</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.3/web3.min.js"></script>
+    <script src="escrow.js"></script>
+
+</body>
+</html>
