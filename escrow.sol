@@ -2,8 +2,8 @@
 pragma solidity ^0.8.0;
 
 contract Escrow {
-    address public buyer;
-    address public seller;
+    address payable public buyer;
+    address payable public seller;
     address public arbiter;
     uint256 public amount;
     bool public buyerApproved;

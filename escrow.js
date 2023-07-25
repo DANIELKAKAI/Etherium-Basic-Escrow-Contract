@@ -192,7 +192,7 @@ const contractAbi = [
     }
 ];
 
-const escrowContractAddress = "0xd1ce5ca1273d923Ec228AffFb324198d26615954";
+const escrowContractAddress = "0xD52f77A27340b8Bb240Dd68c96BEC5EbEc85D21b";
 //const privateKey = 'YOUR_PRIVATE_KEY';
 
 const web3 = new Web3("http://localhost:7545");
